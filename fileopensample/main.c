@@ -4,7 +4,7 @@
 int main(void){
     FILE* fp;
 
-    fp=fopen("memo.txt","r");
+    fp=fopen("../memo.txt","r");
     if(fp==NULL){
         printf("ファイルを開けませんでした。\n");
         exit(1);
